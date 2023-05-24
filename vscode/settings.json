@@ -1,0 +1,24 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.linkedEditing": true,
+  "editor.tabSize": 2,
+  "editor.inlineSuggest.enabled": true,
+  "htmltagwrap.tag": "div",
+  "indentRainbow.includedLanguages": [],
+  "emmet.includeLanguages": {
+    "liquid": "html"
+  },
+  "remote.extensionKind": {
+    "pub.name": [
+      "ui"
+    ]
+  },
+  "dev.containers.defaultExtensions": [
+    "GitHub.copilot",
+    "bradgashler.htmltagwrap",
+    "oderwat.indent-rainbow",
+    "Cardinal90.multi-cursor-case-preserve",
+    "konstantin.wrapSelection"
+  ]
+}

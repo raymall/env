@@ -1,0 +1,103 @@
+{
+	// Place your snippets for scss here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+  "Insert media query": {
+    "prefix": "media",
+    "body": ["@include breakpoint(${1:large}) {", "  $0", "}"]
+  },
+  "Insert rem-calc": {
+    "prefix": "rem",
+    "body": ["rem-calc(${1:16})$2;$0"]
+  },
+  "Insert vw-calc": {
+    "prefix": "vw",
+    "body": ["vw-calc(${1:16} ${2:32})$3;$0"]
+  },
+  "Insert background boilerplate": {
+    "prefix": "bg",
+    "body": [
+      "background-color: ${1:#FFFFFF};",
+      "background-repeat: no-repeat;",
+      "background-position: center;",
+      "background-size: cover;",
+      "$0"
+    ]
+  },
+  "Insert intrinsic ratio placeholder boilerplate": {
+    "prefix": "placeholder",
+    "body": [
+      "display: block;",
+      "position: relative;",
+      "width: 100%;",
+      "aspect-ratio: 1;",
+      "overflow: hidden;",
+      "background-repeat: no-repeat;",
+      "background-position: center;",
+      "background-size: cover;",
+      "$0"
+    ]
+  },
+  "Insert absolute positioning boilerplate": {
+    "prefix": "abs",
+    "body": [
+      "position: absolute;",
+      "top: 0;",
+      "left: 0;",
+      "width: 100%;",
+      "height: 100%;",
+      "margin: 0;",
+      "padding: 0;",
+      "overflow: hidden;",
+      "$0"
+    ]
+  },
+  "Insert Flex boilerplate": {
+    "prefix": "flex",
+    "body": [
+      "display: flex;",
+      "flex-flow: row nowrap;",
+      "justify-content: flex-start;",
+      "align-items: center;",
+      "$0"
+    ]
+  },
+  "Insert Grid boilerplate": {
+    "prefix": "grid",
+    "body": [
+      "display: grid;",
+      "grid-template-columns: ${1:1fr 1fr 1fr};",
+      "grid-template-areas:",
+      "  \"left center right\";",
+      "grid-gap: ${2:vw-calc(${3:16})};",
+      "justify-items: center;",
+      "justify-content: center;",
+      "align-items: start;",
+      "align-content: start;",
+      "$0"
+    ]
+  },
+  "Insert Text boilerplate": {
+    "prefix": "text",
+    "body": [
+      "font-family: ${1:sans-serif};",
+      "font-style: ${2:normal};",
+      "font-weight: ${3:normal};",
+      "font-size: ${4:vw-calc(${5:16} ${6:32})};",
+      "line-height: ${7:vw-calc(${8:20} ${9:36})};",
+      "text-align: ${10:left};",
+      "color: ${11:left};",
+      "$0"
+    ]
+  }
+}
