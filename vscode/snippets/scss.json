@@ -96,7 +96,7 @@
       "font-size: ${4:vw-calc(${5:16} ${6:32})};",
       "line-height: ${7:vw-calc(${8:20} ${9:36})};",
       "text-align: ${10:left};",
-      "color: ${11:left};",
+      "color: ${11:black};",
       "$0"
     ]
   }
